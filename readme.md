@@ -77,7 +77,7 @@ Ensure the server is running before launching the client.
 
 ## Testing & Debugging
 
-Logs current stash size after each access.
+Log the current stash size after each access.
 
 Prints the full eviction path and per‑bucket contents.
 
