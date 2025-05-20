@@ -30,20 +30,22 @@ A modular Java reference implementation of Oblivious ORAM with recursive positio
 - `guava-19.0.jar` (collections and in‑memory caching utilities)
 
 ## Project Structure
+This section outlines the key directories and files within this project.
 
-ObliviousORAM/
-├── src/
-│ └── com/
-│ ├── server/ # Server‑side bucket‑tree handler
-│ ├── client/ # Client entry point and logic
-│ ├── oblivious/ # Core ORAM implementation
-│ └── messages/ # Serializable request/response classes
-├── config/
-│ └── oram.properties # Z, depth, recursion, XOR flags
-├── libs/
-│ └── guava-19.0.jar
-└── README.md
+## ObliviousORAM/
 
+## Directory Structure
+
+* **` src/`**: Contains all the source code for the project.
+    * `com/`
+        * `server/`: Handles server-side bucket-tree operations.
+        * `client/`: The main entry point and client-side logic.
+        * `oblivious/`: Core Oblivious RAM (ORAM) implementation.
+        * `messages/`: Defines serializable request and response classes used for communication.
+* **`config/`**: Stores configuration files for the project.
+    * `oram.properties`: Configuration file for ORAM parameters (e.g., Z, depth, recursion, XOR flags).
+* **`libs/`**: Contains external library dependencies.
+    * `guava-19.0.jar`: The Guava library, version 19.0.
 ---
 
 ## Configuration
